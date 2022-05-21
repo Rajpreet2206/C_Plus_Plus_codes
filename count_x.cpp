@@ -13,13 +13,14 @@ int count_x(const char* p, char X){
 		++p;	
 	}	
 	return count;
-	cout<<"The character " << X<< "in the given string occurs "<< count<< "times" <<"\n";	
+	
 
 }
 
 int main(){
 	char W;
-	count_x("HELLOWOWOSCINAOB", W);
+	int result_of_count_x = count_x("HELLOWOWOSCINAOB",W);
+	cout<<"The character "<< W << " occurs "<< result_of_count_x << " times in the given string."<<"\n";
 	return 0;
 }
 
